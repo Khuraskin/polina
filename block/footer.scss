@@ -1,0 +1,66 @@
+.footer {
+  & {
+    text-align: center;
+    margin-bottom: 6.25rem;
+  }
+
+  &__post {
+    margin-bottom: 3.1rem;
+  }
+
+  &__email {
+    margin-bottom: 3.1rem;
+  }
+
+  &__mail {
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    font-family: Roboto;
+    color: #000000;
+  }
+
+  &__social {
+    margin-bottom: 3.1rem;
+  }
+
+  &__contact {
+    margin-bottom: 3.1rem;
+  }
+
+  &__item {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__list {
+    padding-right: 1.8rem;
+  }
+
+  &__img:hover {
+    background-color: rgb(158, 156, 156); ;
+    border-radius: 50%;
+  }
+
+  &__list:last-child {
+    padding-right: 0;
+  }
+
+  &__img {
+    cursor: pointer;
+  }
+
+  &__text {
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    font-family: Roboto;
+    color: #000000;
+    margin-bottom: 3.1rem;
+  }
+
+  &__city {
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    font-family: Roboto;
+    color: #000000;
+  }
+}

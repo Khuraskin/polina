@@ -1,0 +1,87 @@
+.price {
+  & {
+    margin-bottom: 5.9rem;
+  }
+
+  &__info {
+    font-size: 1.6rem;
+    line-height: 1.87rem;
+    font-family: Roboto;
+    color: #000000;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  &__item {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__item--rown {
+    flex-direction: row-reverse;
+  }
+
+  &__subtitle {
+    padding-top: 4rem;
+    max-width: 22rem;
+  }
+
+  &__foto {
+    text-align: center;
+    margin-bottom: 2.8rem;
+  }
+
+  &__foto:last-child {
+    margin-bottom: 0;
+  }
+
+  &__foto--indent:last-child {
+    margin-bottom: 0;
+  }
+
+  &__shooting {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 1.87rem;
+    line-height: 2.1rem;
+  }
+
+  &__list--hour {
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+  }
+
+  &__list {
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+  }
+
+  &__img {
+    padding-top: 1.3rem;
+  }
+
+  &__pic {
+    max-width: 100%;
+  }
+
+  &__line {
+    border-top: 1px dotted #e5e5e5;
+    color: #fff;
+    background-color: #fff;
+    height: 1px;
+    max-width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  &__text {
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    text-align: center;
+  }
+}

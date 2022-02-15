@@ -1,0 +1,38 @@
+.contacts {
+  & {
+    display: flex;
+    margin-bottom: 10.2rem;
+  }
+
+  &__main {
+    max-width: 45.4rem;
+  }
+
+  &__title {
+    font-size: 1.6rem;
+    line-height: 1.87rem;
+    font-family: Roboto;
+    font-style: normal;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 8.6rem;
+    text-transform: uppercase;
+  }
+
+  &__subtitle {
+    text-align: center;
+    margin-bottom: 5.4rem;
+  }
+
+  &__text {
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+    font-family: Roboto;
+    font-style: normal;
+    color: #000000;
+  }
+
+  &__presentation {
+    text-align: center;
+  }
+}

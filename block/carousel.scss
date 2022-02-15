@@ -1,0 +1,36 @@
+.carousel {
+
+    & {
+        margin-bottom: 4.9rem;
+    }
+  &__row {
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  &__prev {
+    display: flex;
+    align-items:center;
+    cursor: pointer;
+  }
+
+  &__foto {
+   margin: 0 2.1rem;
+   display: none;
+  }
+
+  &__foto--active {
+    display: inline;
+  }
+
+  &__svg {
+    max-width: 100%;
+  }
+  
+  &__next {
+    display: flex;
+    align-items:center;
+    cursor: pointer;  
+  }
+}

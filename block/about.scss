@@ -1,0 +1,39 @@
+.about {
+  & {
+    display: flex;
+    margin-bottom: 8.8rem;
+  }
+
+  &__main {
+    max-width: 45.4rem;
+  }
+
+  &__title {
+    font-size: 1.6rem;
+    line-height: 1.87rem;
+    color: #000000;
+    font-family: Roboto;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 2.87rem;
+  }
+
+  &__photo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5.1rem;
+  }
+
+  &__pic {
+    max-width: 100%;
+  }
+
+  &__subtitle {
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 2.56rem;
+    letter-spacing: 0.05em;
+    text-align: center;
+  }
+}
