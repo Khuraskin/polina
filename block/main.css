@@ -234,7 +234,7 @@ a {
 }
 .price__subtitle {
   padding-top: 4rem;
-  max-width: 22rem;
+  width: 22rem;
 }
 @media screen and (max-width: 720px) {
   .price__subtitle {
