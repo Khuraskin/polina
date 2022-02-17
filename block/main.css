@@ -280,6 +280,14 @@ a {
     line-height: 1.8rem;
   }
 }
+@media screen and (max-width: 414px) {
+  .price__shooting {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 0.9rem;
+    line-height: 1rem;
+  }
+}
 @media screen and (max-width: 375px) {
   .price__shooting {
     font-family: Roboto;
@@ -302,6 +310,14 @@ a {
     line-height: 1.8rem;
   }
 }
+@media screen and (max-width: 414px) {
+  .price__list--hour {
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 0.9rem;
+    line-height: 1rem;
+  }
+}
 @media screen and (max-width: 375px) {
   .price__list--hour {
     font-family: Roboto;
@@ -322,6 +338,14 @@ a {
     font-weight: normal;
     font-size: 1.2rem;
     line-height: 1.8rem;
+  }
+}
+@media screen and (max-width: 414px) {
+  .price__list {
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 0.9rem;
+    line-height: 1rem;
   }
 }
 @media screen and (max-width: 375px) {
