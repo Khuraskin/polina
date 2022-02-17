@@ -284,7 +284,7 @@ a {
   .price__shooting {
     font-family: Roboto;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 0.9rem;
     line-height: 1rem;
   }
 }
@@ -352,6 +352,28 @@ a {
   font-size: 1.5rem;
   line-height: 1.8rem;
   text-align: center;
+}
+@media screen and (max-width: 480px) {
+  .price__text--phone {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1.8rem;
+    text-align: center;
+  }
+}
+.price__phone {
+  display: none;
+}
+@media screen and (max-width: 480px) {
+  .price__phone {
+    display: inline;
+  }
+}
+@media screen and (max-width: 480px) {
+  .price__tablet {
+    display: none;
+  }
 }
 
 .contacts {
