@@ -236,9 +236,29 @@ a {
   padding-top: 4rem;
   max-width: 22rem;
 }
+@media screen and (max-width: 720px) {
+  .price__subtitle {
+    padding-top: 2rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .price__subtitle {
+    padding-top: 1.5rem;
+  }
+}
 .price__foto {
   text-align: center;
   margin-bottom: 2.8rem;
+}
+@media screen and (max-width: 720px) {
+  .price__foto {
+    margin-bottom: 0.5rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .price__foto {
+    margin-bottom: 0.8rem;
+  }
 }
 .price__foto:last-child {
   margin-bottom: 0;
@@ -252,17 +272,65 @@ a {
   font-size: 1.87rem;
   line-height: 2.1rem;
 }
+@media screen and (max-width: 720px) {
+  .price__shooting {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .price__shooting {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+}
 .price__list--hour {
   font-family: Roboto;
   font-weight: normal;
   font-size: 1.5rem;
   line-height: 1.8rem;
 }
+@media screen and (max-width: 720px) {
+  .price__list--hour {
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .price__list--hour {
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+}
 .price__list {
   font-family: Roboto;
   font-weight: normal;
   font-size: 1.5rem;
   line-height: 1.8rem;
+}
+@media screen and (max-width: 720px) {
+  .price__list {
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .price__list {
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1rem;
+  }
 }
 .price__img {
   padding-top: 1.3rem;
